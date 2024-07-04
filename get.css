@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://xxboxnews.blob.core.windows.net/prod/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png') no-repeat center center/cover; /* Replace 'background.jpg' with your image path */
+    z-index: -1;
+    filter: brightness(0.5); /* Optional: to darken the background image */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 28px;
+    font-size: 32px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+input[type="password"]::placeholder {
+    color: #8c8c8c;
+}
+
+button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 24px;
+}
+
+button:hover {
+    background-color: #f40612;
+}
+
+.help {
+    margin-top: 16px;
+}
+
+.help a {
+    color: #828282;
+    text-decoration: none;
+}
+
+.signup-now {
+    margin-top: 24px;
+}
+
+.signup-now a {
+    color: white;
+    text-decoration: none;
+}
+
+.signup-now a:hover {
+    text-decoration: underline;
+}
+
+
